@@ -1,0 +1,2 @@
+#!/bin/bash
+avrdude -p at90usb82 -F -P/dev/ttyUSB0 -c USBasp -Uflash:w:Arduino-usbserial-uno.hex
